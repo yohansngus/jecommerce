@@ -9,8 +9,8 @@ export default function Card() {
   };
   const srcimg = "/images/electronics.jpg";
   return (
-    <div className="bg-gray-100 shadow-md flex flex-col overflow-hidden mx-2 h-[400px]">
-      <div className="h-[220px] relative">
+    <div className="bg-gray-100 shadow-md flex flex-col overflow-hidden mx-2 max-w-xs sm:max-w-sm">
+      <div className="relative aspect-w-4 aspect-h-3">
         <Link href="/insidecart">
           <Image
             className="object-cover px-2 pt-2 hover:cursor-pointer hover:scale-101"

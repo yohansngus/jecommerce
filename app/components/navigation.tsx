@@ -6,13 +6,13 @@ import { useCart } from "../useCart";
 export default function Navigation() {
   const { cart, setCart } = useCart();
   return (
-    <div>
-      <div className="nav flex bg-blue-800 px-5 py-3 text-white">
-        <div className="w-2/10 flex items-center justify-center text-2xl font-bold font-mono text-shadow-[2px_2px_4px_rgba(0,0,0,0.9)]">
+    <nav className="bg-blue-800 px-5 py-3 text-white">
+      <div className="container mx-auto flex flex-col md:flex-row items-center">
+        <div className="flex-1 flex items-center justify-center md:justify-start text-2xl font-bold font-mono text-shadow-[2px_2px_4px_rgba(0,0,0,0.9)]">
           J-market
         </div>
-        <div className="w-6/10 mx-2 my-auto">
-          <form className="max-w-full mx-3 bg-white">
+        <div className="flex-1 w-full md:w-auto mx-2 my-2 md:my-auto">
+          <form className="w-full md:max-w-md mx-0 bg-white">
             <label className="block text-sm font-medium text-heading sr-only ">
               Search
             </label>
@@ -51,16 +51,18 @@ export default function Navigation() {
             </div>
           </form>
         </div>
-        <div className="w-1/10 flex items-center justify-center hover:cursor-pointer hover:border-2 border-white text-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]">
-          Login
+        <div className="flex space-x-4 mt-2 md:mt-0">
+          <div className="flex items-center justify-center hover:cursor-pointer hover:border-2 border-white text-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]">
+            Login
+          </div>
+          <Link
+            className="flex items-center justify-center hover:cursor-pointer hover:border-2 border-white text-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]"
+            href="/insidecart"
+          >
+            <div>Cart:{cart}</div>
+          </Link>
         </div>
-        <Link
-          className="w-1/10 flex items-center justify-center hover:cursor-pointer hover:border-2 border-white text-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]"
-          href="/insidecart"
-        >
-          <div>Cart:{cart}</div>
-        </Link>
       </div>
-    </div>
+    </nav>
   );
 }

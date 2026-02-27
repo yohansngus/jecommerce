@@ -1,16 +1,16 @@
 import Image from "next/image";
 export default function Ad() {
   return (
-    <div className="relative flex h-68 mx-5 my-5 p-1 bg-gray-200">
+    <div className="relative flex w-full mx-2 sm:mx-5 my-5 p-1 bg-gray-200 aspect-w-16 aspect-h-9 sm:aspect-h-5 min-h-[150px]">
       <Image
         className="object-cover"
         fill
         alt="bottel of alchol"
         src="/images/adbottle.jpg"
       />
-      <div className="absolute top-1/2 left-1 -translate-y-1/2 hover:cursor-pointer hover:scale-125">
+      <div className="absolute top-1/2 left-1 -translate-y-1/2 hover:cursor-pointer hover:scale-125 hidden sm:block">
         <svg
-          className="w-6 h-6 text-gray-800 dark:text-white"
+          className="w-4 h-4 sm:w-6 sm:h-6 text-gray-800 dark:text-white"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -25,9 +25,9 @@ export default function Ad() {
           />
         </svg>
       </div>
-      <div className="absolute top-1/2 right-1 -translate-y-1/2 hover:cursor-pointer hover:scale-125">
+      <div className="absolute top-1/2 right-1 -translate-y-1/2 hover:cursor-pointer hover:scale-125 hidden sm:block">
         <svg
-          className="w-6 h-6 text-gray-800 dark:text-white"
+          className="w-4 h-4 sm:w-6 sm:h-6 text-gray-800 dark:text-white"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
