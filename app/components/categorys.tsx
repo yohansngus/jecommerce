@@ -6,7 +6,7 @@ export default function Categorys() {
   const imgClass =
     "object-cover hover:cursor-pointer hover:scale-105 transition-transform";
   const txttoimg =
-    "absolute bottom-5 left-1/2 -translate-x-1/2 text-2xl text-white text-shadow-[2px_2px_4px_rgba(0,0,0,0.8)] font-semibold";
+    "absolute bottom-5 left-1/2 -translate-x-1/2 text-base sm:text-2xl text-white text-shadow-[2px_2px_4px_rgba(0,0,0,0.8)] font-semibold";
 
   const categories = [
     {
@@ -42,9 +42,12 @@ export default function Categorys() {
   ];
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-5 my-5 bg-gray-200 auto-rows-fr">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:flex lg:flex-row lg:flex-nowrap lg:gap-4 mx-5 my-5 bg-gray-200">
       {categories.map((cat, idx) => (
-        <div key={idx} className={card}>
+        <div
+          key={idx}
+          className={`${card} order-[${idx + 1}] lg:flex-none lg:w-[calc(100%/6-3rem)]`}
+        >
           <div className={imageWrapper}>
             <Image className={imgClass} fill src={cat.src} alt={cat.alt} />
           </div>
