@@ -2,13 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Alternative() {
   const categoryStyle =
-    "overflow-hidden bg-white mx-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/6";
+    "overflow-hidden bg-white mx-2 w-full sm:w-1/2 lg:w-1/6";
   const alternativeimg =
     "object-cover h-3/4 flex justify-center mx-auto hover:cursor-pointer hover:scale-105";
   const alternativetext =
     "text-black text-base sm:text-xl h-1/4 font-mono flex justify-center text-shadow-[2px_2px_4px_rgba(0,0,0,0.3)]";
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:flex lg:flex-row lg:flex-nowrap gap-2 mx-5 my-5 p-3 bg-gray-200">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-row lg:flex-nowrap gap-2 mx-5 my-5 p-3 bg-gray-200">
       <div className={categoryStyle}>
         <Link href="/fashiongallery">
           <Image
