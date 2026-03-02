@@ -8,7 +8,7 @@ export default function Alternative() {
   const alternativetext =
     "text-black text-sm sm:text-base font-mono flex justify-center text-shadow-[2px_2px_4px_rgba(0,0,0,0.3)]";
   return (
-    <div className="grid grid-cols-1 xl:flex xl:flex-row xl:flex-nowrap gap-2 mx-5 my-5 p-3 bg-gray-200">
+    <div className="grid grid-cols-1 xl:flex xl:flex-row xl:flex-nowrap gap-2 mx-5 my-5 p-3 bg-gray-200 border-[0.5px] border-gray-300 shadow-sm xl:border-0 xl:shadow-none rounded-md">
       <div className={categoryStyle}>
         <Link href="/fashiongallery">
           <Image

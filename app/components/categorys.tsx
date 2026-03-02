@@ -42,7 +42,7 @@ export default function Categorys() {
   ];
 
   return (
-    <div className="grid grid-cols-1 xl:flex xl:flex-row xl:flex-nowrap xl:gap-4 mx-5 my-5 bg-gray-200">
+    <div className="grid grid-cols-1 xl:flex xl:flex-row xl:flex-nowrap xl:gap-4 mx-5 my-5 bg-gray-200 border-[0.5px] border-gray-300 shadow-sm xl:border-0 xl:shadow-none rounded-md">
       {categories.map((cat, idx) => (
         <div
           key={idx}
