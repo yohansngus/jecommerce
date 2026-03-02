@@ -1,6 +1,6 @@
 export default function Paragraph() {
   return (
-    <div className="flex h-68 mx-5 my-5 p-3 text-md font-sans text-gray-700 text-base leading-relaxed bg-gray-200">
+    <div className="mx-5 my-5 p-3 text-md font-sans text-gray-700 text-base leading-relaxed bg-gray-200">
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima quaerat
         dolore reiciendis quasi esse nostrum blanditiis voluptas itaque quam

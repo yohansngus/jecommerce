@@ -4,11 +4,11 @@ export default function Alternative() {
   const categoryStyle =
     "overflow-hidden bg-white mx-2 w-full sm:w-1/2 lg:w-1/6";
   const alternativeimg =
-    "object-cover h-3/4 flex justify-center mx-auto hover:cursor-pointer hover:scale-105";
+    "object-cover w-full h-auto max-h-40 flex justify-center mx-auto hover:cursor-pointer hover:scale-105";
   const alternativetext =
-    "text-black text-base sm:text-xl h-1/4 font-mono flex justify-center text-shadow-[2px_2px_4px_rgba(0,0,0,0.3)]";
+    "text-black text-sm sm:text-base font-mono flex justify-center text-shadow-[2px_2px_4px_rgba(0,0,0,0.3)]";
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-row lg:flex-nowrap gap-2 mx-5 my-5 p-3 bg-gray-200">
+    <div className="grid grid-cols-1 xl:flex xl:flex-row xl:flex-nowrap gap-2 mx-5 my-5 p-3 bg-gray-200">
       <div className={categoryStyle}>
         <Link href="/fashiongallery">
           <Image
