@@ -12,7 +12,7 @@ export default function Insidecart() {
   const decrease = () => {
     setCart((prev) => (prev > 0 ? prev - 1 : 0));
   };
-  const srcimg = "/images/electronics.jpg";
+
   return (
     <div>
       <Navigation />
@@ -22,10 +22,10 @@ export default function Insidecart() {
       <div className="bg-gray-100 shadow-md flex flex-col overflow-hidden p-3 mx-2 h-[400px]">
         <div className="h-[220px] relative">
           <Image
-            className="object-cover px-2 pt-2 hover:cursor-pointer hover:scale-101"
+            className="object-cover px-2 pt-2 hover:cursor-pointer hover:scale-101 sm:object-contain sm:h-[220px]"
             fill
             alt="Image of somthing"
-            src={srcimg}
+            src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop"
           />
         </div>
         <div className="bg-white h-[180px] px-3 flex flex-col justify-center items-center font-mono text-lg">
