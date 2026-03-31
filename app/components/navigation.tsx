@@ -13,8 +13,10 @@ export default function Navigation() {
         </div>
         <div className="flex-1 w-full md:w-auto mx-2 my-2 md:my-auto">
           <form className="w-full md:max-w-md mx-0 bg-white">
-            <label className="block text-sm font-medium text-heading sr-only ">
-              Search
+            <label className="sr-only">
+              <span className="block text-sm font-medium text-gray-900 dark:text-gray-300">
+                Search
+              </span>
             </label>
             <div className="relative">
               <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
