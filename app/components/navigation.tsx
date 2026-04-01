@@ -54,8 +54,10 @@ export default function Navigation() {
           </form>
         </div>
         <div className="flex space-x-4 mt-2 md:mt-0">
-          <div className="flex items-center justify-center hover:cursor-pointer hover:border-2 border-white text-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]">
-            Login
+          <div className="flex items-center justify-center hover:border-2 hover:shadow-md hover:text-blue-400 transition duration-300 ease-in-out">
+            <span className="text-lg font-semibold text-blue-200 hover:underline">
+              Login
+            </span>
           </div>
           <Link
             className="flex items-center justify-center hover:cursor-pointer hover:border-2 border-white text-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]"
