@@ -8,8 +8,12 @@ export default function Navigation() {
   return (
     <nav className="bg-blue-800 px-5 py-3 text-white">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
-        <div className="flex-1 flex items-center justify-center md:justify-start text-2xl font-bold font-mono text-shadow-[2px_2px_4px_rgba(0,0,0,0.9)]">
-          J-market
+        <div className="flex-1 flex items-center justify-center md:justify-start">
+          <h1 className="text-2xl font-bold font-mono text-white shadow-md">
+            <span className="bg-gradient-to-r from-blue-500 to-blue-700 px-2 py-1 rounded-md">
+              J-market
+            </span>
+          </h1>
         </div>
         <div className="flex-1 w-full md:w-auto mx-2 my-2 md:my-auto">
           <form className="w-full md:max-w-md mx-0 bg-white">
