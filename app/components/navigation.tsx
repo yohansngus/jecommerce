@@ -59,7 +59,7 @@ export default function Navigation() {
         </div>
         <div className="flex space-x-4 mt-2 md:mt-0">
           <div className="flex items-center justify-center hover:border-2 hover:shadow-md hover:text-blue-400 transition duration-300 ease-in-out">
-            <button className="bg-blue-500 hover:bg-blue-400 text-white font-semibold py-2 px-4 rounded shadow-md">
+            <button className="bg-blue-500 hover:bg-blue-400 hover:cursor-pointer text-white font-semibold py-2 px-4 rounded shadow-md">
               Login
             </button>
           </div>
