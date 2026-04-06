@@ -13,7 +13,7 @@ export default function Home() {
       <Navigation />
       <Ad />
       <Alternative />
-      <div className="category-title flex justify-center text-3xl font-semibold font-mono text-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]">
+      <div className="category-title flex justify-center text-3xl font-semibold font-mono text-center text-shadow-[2px_2px_4px_rgba(0,0,0,0.4)] bg-gray-200 p-2 rounded-md">
         Shop by category
       </div>
       <Paragraph />
