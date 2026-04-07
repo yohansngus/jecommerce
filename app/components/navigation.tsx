@@ -6,7 +6,7 @@ import { useCart } from "../useCart";
 export default function Navigation() {
   const { cart, setCart } = useCart();
   return (
-    <nav className="bg-blue-800 px-5 py-3 text-white">
+    <nav className="bg-gradient-to-r from-blue-700 to-blue-500 px-5 py-3 text-white shadow-md">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="flex-1 flex items-center justify-center md:justify-start">
           <h1 className="text-2xl font-bold font-mono text-white shadow-md">
