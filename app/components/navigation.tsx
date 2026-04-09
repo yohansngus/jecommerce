@@ -67,7 +67,7 @@ export default function Navigation() {
             className="flex items-center justify-center hover:cursor-pointer hover:border-2 border-white text-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]"
             href="/insidecart"
           >
-            <div className="text-lg font-semibold text-blue-200 hover:text-blue-400 hover:cursor-pointer hover:underline">
+            <div className="text-lg font-semibold text-blue-200 hover:text-blue-400 hover:cursor-pointer hover:underline hover:shadow-md hover:bg-blue-50 transition duration-300 ease-in-out">
               Cart:{cart}
             </div>
           </Link>
