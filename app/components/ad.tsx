@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Ad() {
   return (
-    <div className="relative flex w-full mx-2 sm:mx-5 my-5 p-1 bg-gray-200 aspect-w-16 aspect-h-9 sm:aspect-h-5 min-h-[150px]">
+    <div className="relative flex w-29/30 mx-2 sm:mx-5 my-5 p-1 bg-gray-200 aspect-w-16 aspect-h-9 sm:aspect-h-5 min-h-[150px] overflow-x-auto width-auto rounded-md shadow-sm border-[0.5px] border-gray-300">
       <Image
         className="object-cover"
         fill

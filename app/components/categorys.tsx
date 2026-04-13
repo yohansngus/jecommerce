@@ -1,7 +1,8 @@
 import Image from "next/image";
 export default function Categorys() {
   // base card container; auto-height with aspect ratio ensures consistent sizing
-  const card = "relative bg-white overflow-hidden p-5 flex flex-col";
+  const card =
+    "relative bg-white overflow-hidden p-5 lg:p-19 xl:p-2 flex flex-col";
   const imageWrapper = "relative w-full aspect-square";
   const imgClass =
     "object-cover hover:cursor-pointer hover:scale-105 transition-transform";
@@ -42,7 +43,7 @@ export default function Categorys() {
   ];
 
   return (
-    <div className="grid grid-cols-1 xl:flex xl:flex-row xl:flex-nowrap xl:gap-4 mx-5 my-5 bg-gray-200 border-[0.5px] border-gray-300 shadow-sm xl:border-0 xl:shadow-none rounded-md">
+    <div className="grid sm:grid-cols-2 lg:grid-cols-6 grid-cols-1 xl:flex xl:flex-row xl:flex-nowrap xl:gap-4 mx-5 my-5 bg-gray-200 border-[0.5px] border-gray-300 shadow-sm xl:border-0 xl:shadow-none rounded-md lg:h-[150px] sm:h-[1200px]">
       {categories.map((cat, idx) => (
         <div
           key={idx}

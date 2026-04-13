@@ -6,8 +6,8 @@ import { useCart } from "../useCart";
 export default function Navigation() {
   const { cart, setCart } = useCart();
   return (
-    <nav className="bg-gradient-to-r from-blue-700 to-blue-500 px-5 py-3 text-white shadow-md">
-      <div className="container mx-auto flex flex-col md:flex-row items-center">
+    <nav className="bg-gradient-to-r from-blue-700 to-blue-500 px-5 py-3 text-white shadow-md md:flex md:flex-row md:justify-center md:space-x-4 md:items-center">
+      <div className="flex flex-col md:flex-row md:space-x-4 md:items-center md:justify-center">
         <div className="flex-1 flex items-center justify-center md:justify-start">
           <h1 className="text-2xl font-bold font-mono text-white shadow-md">
             <span className="bg-gradient-to-r from-blue-500 to-blue-700 px-2 py-1 rounded-md">
@@ -15,7 +15,7 @@ export default function Navigation() {
             </span>
           </h1>
         </div>
-        <div className="flex-1 w-full md:w-auto mx-2 my-2 md:my-auto">
+        <div className="flex-1 w-full md:max-w-md mx-0 bg-white md:mx-auto md:my-auto">
           <form className="w-full md:max-w-md mx-0 bg-white">
             <label className="sr-only">
               <span className="block text-sm font-medium text-gray-900 dark:text-gray-300">
@@ -64,7 +64,7 @@ export default function Navigation() {
             </button>
           </div>
           <Link
-            className="flex items-center justify-center hover:cursor-pointer hover:border-2 border-white text-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]"
+            className="flex items-center justify-center hover:cursor-pointer hover:border-2 border-white text-shadow-[2px_2px_4px_RGBA(0,0,0,0.4)]"
             href="/insidecart"
           >
             <div className="text-lg font-semibold text-blue-900 hover:text-blue-700 hover:cursor-pointer hover:underline hover:shadow-lg hover:bg-blue-100 transition duration-300 ease-in-out">
