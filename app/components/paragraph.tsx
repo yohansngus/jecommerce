@@ -3,7 +3,7 @@ export default function Paragraph() {
     <div className="mx-3 my-5 p-3 text-md font-sans text-gray-700 text-base leading-relaxed bg-gray-200 border-[0.5px] border-gray-300 shadow-sm lg:border-0 lg:shadow-none rounded-md">
       <p className="text-lg font-sans leading-relaxed text-gray-600 p-2">
         Lorem ipsum dolor amet consectetur, adipisicing . Minima quaerat dolore
-        reiciendis quasi esse nostrum blanditiis voluptas itaque quam suscipit?
+        reiciendis quasi esse nrum blanditiis voluptas itaque quam suscipit?
         Commodi soluta quod quisquam quaerat sit ex id aperiam harum! Lorem
         ipsum dolor sit amet consectetur, adipisicing elit. Minima quaerat
         dolore reiciendis quasi esse nos dfd trum blanditiis voluptas itaque quam
