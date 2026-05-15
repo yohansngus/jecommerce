@@ -4,7 +4,7 @@ export default function Paragraph() {
       <p className="text-lg font-sans leading-relaxed text-gray-600 p-2">
         Lorem ipsum dolor amet consectetur, adipisicing . Minima quaerat dolore
         reiciendis quasi esse nrum blanditiis voluptas itaque quam suscipit?
-        Commodi soluta quod quisquam quaerat sit ex id aperiam harum! Lorem
+        Commodi soluta quod quisquam quaerat sit ex id aperiam hum! Lorem
         ipsum dolor sit amet consectetur, adipisicing elit. Minima quaerat
         dolore reiciendis quasi esse nos dfd trum blanditiis voluptas itaque quam
         suscipit? Commodi soluta quod quisquam quaerat sit ex id apiam harum!
