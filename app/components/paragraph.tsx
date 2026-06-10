@@ -1,11 +1,11 @@
 export default function Paragraph() {
   return (
     <div className="mx-3 my-5 p-3 text-md font-sans text-gray-700 text-base leading-relaxed bg-gray-200 border-[0.5px] border-gray-300 shadow-sm lg:border-0 lg:shadow-none rounded-md">
-      <p className="text-lg font-sans leading-relaxed text-gray-600 p-3">
+      <p className="text-lg font-sans leading-relaxed text-gray-600 p-2">
         Lorem ipsum dolor amet consectetur, adipisicing . Minima quaerat dolore
         reiciendis quasi esse nrum blanditiis voluptas itaque qm fhhf suscipit?
         Commodi soluta quod quisquam quaerat sit ex id apiam hufd fdfsm! Lorm ipsum
-        dolor sit amet consectetur, adipisicing elit. Min jhdjfhwk afd quaerat
+        dolor sit amet consectetur, adipisicing elit. Mfd fdsin jhdjfhwk afd quaerat
         dolore reiciendis quasi esse nos dfd trum blanditiis volupta jkfds
         itaque quam suscipit? Commodi soluta quod quisquam quaerat sfdf ffd fdf
         dfex fjdkljk id apiam harum! Lorem ipsum dolor sit amet consectfdur fds,
